@@ -1,5 +1,8 @@
 # Chance Charles Salon
 
+## Link Preview
+https://viktory-v.github.io/chance-charles-salon/
+
 ## Technologies
 - HTML
 - JQuery
