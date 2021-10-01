@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Detail page</title>
+  <script>
+    ( function( a, b, c, d ) {
+      c = '';
+      for ( let i = 0; i < b; i++ ) {
+        if ( 'fontLoaderCss' === localStorage.key( i ).substring( 0, 13 ) ) {
+          c += "\r\n" + localStorage.getItem( localStorage.key( i ) );
+        }
+      }
+
+      if ( c ) {
+        d = a.createElement( 'style' );
+        d.rel = 'stylesheet';
+        a.head.appendChild( d );
+        d.textContent = c;
+      }
+    } )( document, localStorage.length );
+  </script>
+  <link rel="stylesheet" href="css/styles.css" id="theme-styles-css">
+  <script type="application/ld+json">
+    {
+      "@context": "http://schema.org",
+      "@type": "Organization",
+      "name": "Your Organization Name",
+      "url": "http://www.example.com",
+      "logo": "http://www.example.com/images/logo.png",
+      "contactPoint": [
+        {
+          "@type": "ContactPoint",
+          "telephone": "+1-111-111-1111",
+          "contactType": "customer service"
+        }
+      ],
+      "sameAs": [
+        "http://www.facebook.com/your-profile",
+        "http://www.twitter.com/yourProfile",
+        "http://plus.google.com/your_profile"
+      ]
+    }
+  </script>
+</head>
+<body class="">
+  <div class="container">
+    <aside class="menu-wrap" aria-hidden="true">
+    
+      <div class="logo">
+          <img src="images/logo.png" alt="">
+      </div>
+    
+      <ul class="mobile-nav">
+        <li> <a href="services.html"> Services </a></li>
+        <li> <a href="about.html"> About </a> </li>
+        <li> <a href="#"> Meet the Team </a> </li>
+        <li> <a href="#"> Blog </a></li>
+        <li> <a href="contact.html"> Contact </a></li>
+      </ul>
+    
+      <ul class="second-nav">
+        <li class="phone-link"> <a href="tel:818-738-5122"> 818-738-5122 </a> </li>
+        <li class="btn default"> 
+            <a href="#"> Book an Appointment </a>
+        </li>
+        <li class="btn mobile"> 
+            <a href="#"> Book </a>
+        </li>
+      </ul>
+    
+      <button class="close-button" id="close-button"><span class="screen-reader-text">Close</span></button>
+    </aside>
+    <div class="content-wrap">
+      <header class="header">
+        <div id="sticky-header" class="unfixed">
+          <div class="inner">
+            <button class="menu-toggle" id="open-button">Menu</button>
+            <div class="logo">
+              <a href="/"><img src="images/logo.png" alt=""></a>
+            </div>
+            <nav class="main-nav-container">
+              <ul class="main-nav header-nav">
+                <li> <a href="services.html"> Services </a></li>
+                <li> <a href="about.html"> About </a> </li>
+                <li> <a href="#"> Meet the Team </a> </li>
+                <li> <a href="blog-page.html"> Blog </a></li>
+                <li> <a href="contact.html"> Contact </a></li>
+              </ul>
+            </nav>
+            <ul class="second-nav">
+              <li class="phone-link"> <a href="tel:818-738-5122"> 818-738-5122 </a></li>
+              <li class="btn default"> 
+                <a href="#"> Book an Appointment </a>
+              </li>
+              <li class="btn mobile"> 
+                <a href="#"> Book </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>      <main class="main">
+        
+<section class="section-trending">
+    <div class="services">
+      <div class="inner">
+        <div class="wrap">
+          <ul class="nav">
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+            <li><a href="blog-page.html">Lorem ipsum</a></li>
+          </ul>
+        </div>
+      </div>
+</section>
+
+<section class="section-blog-detail">
+    <div class="inner">
+        <p class="date">July 12, 2021</p>
+        <h1 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h1>
+        <div class="img">
+            <img src="images/detail-blog-img1.png" alt="">
+        </div>
+    </div>
+</section>
+
+<section class="section-blog-detail-description">
+    <div class="inner">
+        <h2 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi.<b> Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p>
+        </div>
+    </div>
+</section>
+
+<section class="section-blog-detail-row">
+    <div class="inner">
+        <div class="col">
+            <h3 class="title">1.Lorem ipsum</h3>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi.<b> Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p></b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit.</p>
+                <p>Venenatis vitae laoreet dictum placerat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p>
+            </div>
+        </div>
+        <div class="col">
+            <div class="img">
+                <img src="images/detail-blog-img2.png" alt="">
+            </div>
+        </div>
+    </div>
+</section>
+
+ <section class="section-blog-detail-row second-row">
+    <div class="inner">
+        <div class="col">
+            <div class="img">
+                <img src="images/detail-blog-img3.png" alt="">
+            </div>
+        </div>
+        <div class="col">
+            <h3 class="title">2.Lorem ipsum</h3>
+            <div class="text">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi.<b> Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p></b>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi.</p>
+                <p>Venenatis vitae laoreet dictum placerat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="section-blog-detail-prefooter">
+    <div class="inner">
+        <h2 class="title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        <div class="text">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi.<b> Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</b></p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Congue viverra nec felis consectetur etiam felis convallis nunc, mi. Pharetra sed porttitor mi sit nulla a, iaculis. Sollicitudin eu arcu est, cursus integer dignissim leo egestas sit. Venenatis vitae laoreet dictum placerat.</p>
+        </div>
+        <div class="share-on">
+            <h4>Share on:</h4>
+            <ul class="soc-links">
+                <li class="facebook"> <a href="#"><img src="images/soc-facebook.png" alt="Facebook" /></a> </li>
+                <li class="insta"> <a href="#"><img src="images/soc-insta.png" alt="Instagram" /></a> </li>
+                <li class="twitter"> <a href="#"><img src="images/soc-twitter.png" alt="Twitter" /></a> </li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<section class="section-blog-detail-news">
+    <div class="inner">
+        <div class="lists">
+            <div class="list">
+                <a href="#" class="item">
+                    <div class="image">
+                        <img src="images/detail-blog-item1.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <p class="date">July 6, 2021</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </a>
+                <a href="#" class="item">
+                    <div class="image">
+                        <img src="images/detail-blog-item2.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <p class="date">July 12, 2021</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    </div>
+                </a>
+                <a href="#" class="item">
+                    <div class="image">
+                        <img src="images/detail-blog-item3.png" alt="" />
+                    </div>
+                    <div class="text">
+                        <p class="date">July 28, 2021</p>
+                        <p>Lorem ipsum dolor sit adipiscing elit.</p>
+                    </div>
+                </a>
+            </div>  
+        </div>
+    </div>  
+</section>
+
+      </main>
+      <footer class="footer">
+          <div class="top">
+              <div class="inner">
+                  <div class="logo">
+                      <img src="images/logo-white.png" alt="">
+                  </div>
+                  <nav class="footer-nav-container">
+                      <ul class="footer-nav">
+                          <li> <a href="services.html"> Services </a></li>
+                          <li> <a href="about.html"> About </a> </li>
+                          <li> <a href="#"> Meet the Team </a> </li>
+                          <li> <a href="blog-page.html"> Blog </a></li>
+                          <li> <a href="contact.html"> Contact </a></li>
+                      </ul>
+                  </nav>
+                  <div class="btn"> <a href="#"> Book an Appointment </a> </div>
+              </div>
+              <div class="inner">
+                  <div class="col">
+                      <span class="title">HOURS OF OPERATION</span>
+                      <p><b>Tuesday - Saturday:</b> 7:00 am - 9:00 pm</p>
+                      <p><b>Sunday - Monday:</b> closed.</p>
+                      <div class="email">
+                          <a href="mailto:overtime214@gmail.com">overtime214@gmail.com</a>
+                      </div>
+                      <ul class="links-nav">
+                          <li> <a href="terms-and-conditions.html">Terms of Use</a> </li>
+                          <li> <a href="privacy-policy.html">Privacy Policy</a> </li>
+                      </ul>
+                  </div>
+                  <div class="col">
+                      <span class="title">CONTACT US</span>
+                      <div class="phone">
+                          <a href="tel:972-439-4472">972-439-4472</a>
+                      </div>
+                      <p>8837 Lebanon Rd., #500, Frisco, TX 75034</p>
+                  </div>
+              </div>
+          </div>
+          <div class="bottom">
+              <div class="inner">
+                  <p> © Chance Charles Salon 2021. All rights reserved. </p>
+                  <p> Dallas WordPress Development: <a href="#"> Web Loft Designs </a> </p>
+              </div>
+          </div>
+      </footer>    </div>
+  </div>
+  <!-- ================================================== -->
+  <!-- This part is for including in html only, not for WP -->
+  <!-- ================================================== -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="//nwbp.devbucket.me/wp-content/plugins/gravityforms/js/gravityforms.min.js"></script>
+  <script src="//nwbp.devbucket.me/wp-content/plugins/gravityforms/js/jquery.json.min.js"></script>
+  <script id='theme-init-js-extra'>
+    const theme = {
+      'url': 'file:' === location.protocol ? '' : location.pathname.startsWith( '/www/' ) ? '/www/' : '/',
+      'ajaxUrl': '\/wp-admin\/admin-ajax.php',
+      'ajaxNonce': 'd0b7158aec',
+      'googleMapsApiKey': 'AIzaSyC1BgSVg5b7vMGqbjalTl_0Rb9LmsrMpWE'
+    };
+    const theme_i18n = { 'more': 'View More', 'less': 'View Less' };
+  </script>
+  <!-- ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ -->
+  <!-- This part is for including in html only, not for WP -->
+  <!-- ================================================== -->
+  <script src="js/init.js"></script>
+</body>
+</html>
