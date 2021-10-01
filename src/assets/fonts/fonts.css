@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "Heritage";
+  src: url("AM.ttf");
+}
+
+@font-face {
+  font-family: "Heritage";
+  src: url("AMB.ttf");
+  font-weight: bold;
+}
